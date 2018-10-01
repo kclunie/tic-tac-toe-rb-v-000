@@ -102,7 +102,7 @@ end
 
 def play(board)
   counter = 0 
-  while counter < 9
+  while counter < 9 && !over?(board)
     turn(board)
     counter += 1
   end  
