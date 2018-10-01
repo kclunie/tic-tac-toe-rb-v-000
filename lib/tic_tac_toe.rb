@@ -108,7 +108,7 @@ def play(board)
     counter += 1
   end  
     if !!won?(board)
-      puts "Congratulations X!"
+      puts "Congratulations X!" || 
     elsif draw?(board) == true
       puts "Cat's Game!"
     else
