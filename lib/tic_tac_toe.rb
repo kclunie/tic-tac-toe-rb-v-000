@@ -107,7 +107,7 @@ def play(board)
     turn(board)
     counter += 1
   end  
-    if won?(board) == result
+    if !!won?(board)
       puts "Congratulations you won"
     elsif draw?(board) == true
       puts "Cat's Game!"
