@@ -34,7 +34,7 @@ def turn(board)
   index = input_to_index(input)
   character = current_player(board)
   if valid_move?(board, index) == true
-  puts move(board, index, character) &&
+  move(board, index, character)
   display_board(board)
 else
   puts "Enter a valid move"
